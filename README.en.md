@@ -181,7 +181,7 @@ your-vault/ (location of your choice; can sit inside an Obsidian vault)
 ```
 ljq-growth-journal execution/
 ├── 1. Trigger/  daily · weekly · annual · decision
-├── 2. Opening (first time only)/  explain rules + confirm save location
+├── 2. Opening (first time only)/  feature overview + daily rules + save location (optional)
 ├── 3. Daily flow (core)/
 │   ├── Step1 Listen♻️: no judgment, no interruption
 │   ├── Step2 Organize & present: frontmatter + four blocks
@@ -198,7 +198,7 @@ ljq-growth-journal execution/
 ```mermaid
 flowchart TD
     A[Trigger phrase] --> B{First time this session?}
-    B -- Yes --> C[Opening: rules + confirm save location]
+    B -- Yes --> C[Opening: features + save location (optional)]
     B -- No --> D{Which function?}
     C --> D
     D -- Daily --> E[Step1 Listen ♻️]
