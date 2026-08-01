@@ -1,4 +1,3 @@
-
 # Growth Journal · A Conversational Journaling Skill
 
 **English** | [中文](README.md)
@@ -167,6 +166,26 @@ growth-journal execution/
 ├── 5. Annual: read index.md → all weekly reviews → Bloom 7 questions → if-X-then-Y → 3+3
 ├── 6. Decision: reasons/confidence/expectation/revisit → proactive revisit when due
 └── 7. History linkage (Path A only): action follow-ups · on-this-day · revisit scan
+```
+
+```mermaid
+flowchart TD
+    A[Trigger phrase] --> B{First time this session?}
+    B -- Yes --> C[Opening: rules + confirm save location]
+    B -- No --> D{Which function?}
+    C --> D
+    D -- Daily --> E[Step1 Listen ♻️]
+    E --> F{User says "wrap it up"?}
+    F -- Not yet --> E
+    F -- Yes --> G[Step2 Organize & present<br>Iron rule 1: no AI-ification<br>Iron rule 2: silent correction]
+    G --> H[Step3 Confirm ♻️]
+    H -- Changes --> G
+    H -- Approved --> I{Path?}
+    I -- A: file tools --> J[Write file + update index.md]
+    I -- B: plain text --> L[Filename + Markdown code block<br>nothing else]
+    D -- Weekly --> M[Read index.md → KISS + recurring issues]
+    D -- Annual --> N[Read index.md → Bloom 7 questions → if-X-then-Y]
+    D -- Decision --> O[Decision template → revisit when due]
 ```
 
 ## Design philosophy
