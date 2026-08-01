@@ -118,6 +118,18 @@ revisit:                # decision revisit date
 
 Naming is a sensible default — state any preference and the AI will follow yours.
 
+### Weekly "This Week at a Glance" example
+
+The overview only states what happened — no process, no evaluation — with a date tag on each line:
+
+```markdown
+## This Week at a Glance
+
+1. Watched Spider-Man at the cinema, used AI to fill in background lore #0731
+2. Power outage at home for days, sleep schedule fell apart #0730
+3. Built the ljq-growth-journal Skill and open-sourced it on GitHub #0801
+```
+
 ## Structure
 
 ### Skill package
