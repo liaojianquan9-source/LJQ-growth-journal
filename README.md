@@ -127,7 +127,7 @@ revisit:                # 决策回检日期（decision 为 true 时填）
 | 类型 | 路径 | 示例 |
 |---|---|---|
 | 日记 | `journal/YYYY/MM/成长记录-第N天-YYYYMMDD.md` | `journal/2026/08/成长记录-第1天-20260801.md` |
-| 周报 | `weekly/成长周报-YYYY-Wxx.md` | `weekly/成长周报-2026-W31.md` |
+| 周报 | `weekly/成长记录-第XX周-YYMMDD-YYMMDD.md` | `weekly/成长记录-第03周-260622-260628.md` |
 | 年度总结 | `yearly/年度总结-YYYY.md` | `yearly/年度总结-2026.md` |
 
 命名是大众化默认值——你提出任何偏好，AI 无条件以你的为准。
@@ -139,9 +139,9 @@ revisit:                # 决策回检日期（decision 为 true 时填）
 ```markdown
 ## 本周概览
 
-1. 电影院看《蜘蛛侠-崭新之日》，用 AI 辅助补背景知识 #0731
-2. 家里停电几天，作息紊乱 #0730
-3. 做了 ljq-growth-journal Skill 并开源到 GitHub #0801
+> 1. 电影院看《蜘蛛侠-崭新之日》，用 AI 辅助补背景知识 #0731
+> 2. 家里停电几天，作息紊乱 #0730
+> 3. 做了 ljq-growth-journal Skill 并开源到 GitHub #0801
 ```
 
 ## 结构总览
@@ -173,7 +173,7 @@ ljq-growth-journal/
 日记库/（位置自定，可直接放进 Obsidian 库）
 ├── index.md                            # 记忆索引：每篇一行的全库目录（仅落盘模式）
 ├── journal/YYYY/MM/成长记录-第N天-YYYYMMDD.md
-├── weekly/成长周报-YYYY-Wxx.md
+├── weekly/成长记录-第XX周-YYMMDD-YYMMDD.md
 ├── yearly/年度总结-YYYY.md
 └── decisions/                          # 决策日志（可选）
 ```

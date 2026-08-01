@@ -125,7 +125,7 @@ revisit:                # decision revisit date
 | Type | Path | Example |
 |---|---|---|
 | Daily | `journal/YYYY/MM/成长记录-第N天-YYYYMMDD.md` | `journal/2026/08/成长记录-第1天-20260801.md` |
-| Weekly | `weekly/成长周报-YYYY-Wxx.md` | `weekly/成长周报-2026-W31.md` |
+| Weekly | `weekly/成长记录-第XX周-YYMMDD-YYMMDD.md` | `weekly/成长记录-第03周-260622-260628.md` |
 | Annual | `yearly/年度总结-YYYY.md` | `yearly/年度总结-2026.md` |
 
 Naming is a sensible default — state any preference and the AI will follow yours.
@@ -137,9 +137,9 @@ The overview only states what happened — no process, no evaluation — with a 
 ```markdown
 ## This Week at a Glance
 
-1. Watched Spider-Man at the cinema, used AI to fill in background lore #0731
-2. Power outage at home for days, sleep schedule fell apart #0730
-3. Built the ljq-growth-journal Skill and open-sourced it on GitHub #0801
+> 1. Watched Spider-Man at the cinema, used AI to fill in background lore #0731
+> 2. Power outage at home for days, sleep schedule fell apart #0730
+> 3. Built the ljq-growth-journal Skill and open-sourced it on GitHub #0801
 ```
 
 ## Structure
@@ -171,7 +171,7 @@ ljq-growth-journal/
 your-vault/ (location of your choice; can sit inside an Obsidian vault)
 ├── index.md                            # memory index: one line per entry (file-writing mode only)
 ├── journal/YYYY/MM/成长记录-第N天-YYYYMMDD.md
-├── weekly/成长周报-YYYY-Wxx.md
+├── weekly/成长记录-第XX周-YYMMDD-YYMMDD.md
 ├── yearly/年度总结-YYYY.md
 └── decisions/                          # decision journal (optional)
 ```

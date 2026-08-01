@@ -1,17 +1,15 @@
 ---
 type: weekly
-week: YYYY-Wxx
+week: X
 date: YYYY-MM-DD
 tags: []
 ---
 
-# 第 xx 周复盘（MM-DD ~ MM-DD）
+# 成长记录-第XX周-YYMMDD-YYMMDD
 
 ## 本周概览
 
-> 只陈述发生了什么，不写经过、结果或评价；同类合并为一条，句尾加日期标签（如 #0731）。
-
-1. 
+> 1. 
 
 ## Keep · 保持
 

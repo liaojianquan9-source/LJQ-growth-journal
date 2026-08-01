@@ -32,7 +32,7 @@ description: 个人成长记录与复盘 Skill。当用户想记录当天（如�
 - 日记：`journal/YYYY/MM/成长记录-第N天-YYYYMMDD.md`
   - `YYYYMMDD` 无连字符（用户说「260801」即 20260801）；frontmatter 里的 `date` 字段保持 `YYYY-MM-DD` 标准格式，保证 Obsidian 与 AI 检索兼容。
   - `第N天` 从用户第一次使用本 Skill 记录起算。路径 A：读目录数现有日记数 +1；路径 B：首次问一句「这是你第几天记录？」，用户说不清就从第 1 天开始。
-- 周报：`weekly/成长周报-YYYY-Wxx.md`（ISO 周数）
+- 周报：`weekly/成长记录-第XX周-YYMMDD-YYMMDD.md`（周一~周日；周数与日记「第N天」同套计数，如 `weekly/成长记录-第03周-260622-260628.md`）
 - 年度总结：`yearly/年度总结-YYYY.md`
 - 这是默认的大众化格式。用户提出自己的命名/结构偏好时，无条件以用户的为准并记住。
 
