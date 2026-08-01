@@ -62,7 +62,7 @@ Open `SKILL.md` and paste its full content as a system prompt (or simply send it
 
 ```
 You: Log 260801
-AI: (first time: explains the rules + asks where to save; after that it only replies "Got it. (say 'wrap up' when done)")
+AI: (first time: explains the rules + asks where to save; after that it only replies "Got it. (when you're done recording, say 'wrap up')")
 You: ... (talk freely, voice input fine, as many turns as you like)
 You: That's all, wrap it up.
 AI: lays out your day in four blocks: Events / Thoughts / Lessons / Actions
