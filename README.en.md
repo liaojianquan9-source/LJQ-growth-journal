@@ -143,11 +143,14 @@ ljq-growth-journal/
 │   ├── annual-review.md      # annual: Bloom 7 questions + if-X-then-Y rules
 │   └── decision-log.md       # decision journal + revisit
 └── assets/
-    └── templates/            # file skeletons
-        ├── daily.md
-        ├── weekly.md
-        ├── annual.md
-        └── decision.md
+    ├── templates/            # file skeletons
+    │   ├── daily.md
+    │   ├── weekly.md
+    │   ├── annual.md
+    │   └── decision.md
+    └── examples/             # filled-in real examples (templates show the shape, examples show the standard)
+        ├── daily-example.md
+        └── weekly-example.md
 ```
 
 ### Generated vault

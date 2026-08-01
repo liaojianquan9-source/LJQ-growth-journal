@@ -126,7 +126,7 @@ description: 个人成长记录与复盘 Skill。当用户想记录当天（如�
 
 ## 模板文件
 
-模板在 `assets/templates/` 下：`daily.md`、`weekly.md`、`annual.md`、`decision.md`。落盘时以模板为骨架；这是大众化默认格式，用户已有自定义模板或提出格式偏好时，一律以用户的为准。
+模板在 `assets/templates/` 下：`daily.md`、`weekly.md`、`annual.md`、`decision.md`。落盘时以模板为骨架；这是大众化默认格式，用户已有自定义模板或提出格式偏好时，一律以用户的为准。`assets/examples/` 下有真实填充示例（`daily-example.md`、`weekly-example.md`）——模板给形状，示例给标准，拿不准详略程度时参考示例。
 
 ## 原则速查
 

@@ -145,11 +145,14 @@ ljq-growth-journal/
 │   ├── annual-review.md      # 年度总结：Bloom 7 问 + 如果X就Y
 │   └── decision-log.md       # 决策日志 + revisit 回检
 └── assets/
-    └── templates/            # 落盘模板
-        ├── daily.md
-        ├── weekly.md
-        ├── annual.md
-        └── decision.md
+    ├── templates/            # 落盘模板
+    │   ├── daily.md
+    │   ├── weekly.md
+    │   ├── annual.md
+    │   └── decision.md
+    └── examples/             # 真实填充示例（模板给形状，示例给标准）
+        ├── daily-example.md
+        └── weekly-example.md
 ```
 
 ### 生成的日记库结构
