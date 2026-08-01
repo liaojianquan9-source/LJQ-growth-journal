@@ -31,7 +31,7 @@
 
 ### 方式一：作为 Skill 安装（支持 Skills 的 AI 环境）
 
-将 `growth-journal.skill` 解压（它本质是一个 zip 包），把 `growth-journal/` 文件夹放入你的 Skills 目录：
+将 `ljq-growth-journal.skill` 解压（它本质是一个 zip 包），把 `ljq-growth-journal/` 文件夹放入你的 Skills 目录：
 
 ```
 ~/.config/agents/skills/     # 推荐
@@ -125,7 +125,7 @@ revisit:                # 决策回检日期（decision 为 true 时填）
 ### Skill 包结构
 
 ```
-growth-journal/
+ljq-growth-journal/
 ├── SKILL.md                  # 主文件：触发词 / 双路径 / 流程 / 铁律
 ├── 说明.md                   # 本文件（中英双语）
 ├── references/               # 延伸功能（按需加载）
@@ -154,7 +154,7 @@ growth-journal/
 ### 执行逻辑
 
 ```
-growth-journal 执行逻辑/
+ljq-growth-journal 执行逻辑/
 ├── 1.触发/  日记线 · 周报线 · 年报线 · 决策线
 ├── 2.开场（仅首次一次）/  说明玩法 + 确认存放位置
 ├── 3.日记线（核心）/

@@ -29,7 +29,7 @@ And in the AI era, your records carry a second layer of value: **they are the pe
 
 ### Option 1: As a Skill (AI environments that support Skills)
 
-Unzip `growth-journal.skill` (it is a zip archive) and place the `growth-journal/` folder into your skills directory:
+Unzip `ljq-growth-journal.skill` (it is a zip archive) and place the `ljq-growth-journal/` folder into your skills directory:
 
 ```
 ~/.config/agents/skills/     # recommended
@@ -123,7 +123,7 @@ Naming is a sensible default — state any preference and the AI will follow you
 ### Skill package
 
 ```
-growth-journal/
+ljq-growth-journal/
 ├── SKILL.md                  # main file: triggers / dual paths / flow / iron rules
 ├── 说明.md                   # this file (bilingual)
 ├── references/               # extended features (loaded on demand)
@@ -152,7 +152,7 @@ your-vault/ (location of your choice; can sit inside an Obsidian vault)
 ### Execution logic
 
 ```
-growth-journal execution/
+ljq-growth-journal execution/
 ├── 1. Trigger/  daily · weekly · annual · decision
 ├── 2. Opening (first time only)/  explain rules + confirm save location
 ├── 3. Daily flow (core)/
