@@ -27,6 +27,18 @@
 - **记忆索引**：落盘模式自动维护 `index.md` 全库目录，写周报年报先读索引再读全文，库再大也快
 - **四层回看机制**：日记 → 周报（KISS + 错题集）→ 年度总结（Sahil Bloom 7 问）→ 决策回检（Decision Journal）
 
+## 效果预览
+
+真实填充示例（源自实际使用，已脱敏），完整文件见 `assets/examples/`：
+
+| 日记 | 周报 |
+|---|---|
+| ![日记示例](assets/screenshots/daily-example.png) | ![周报示例](assets/screenshots/weekly-example.png) |
+
+| 决策日志 | 年度总结 |
+|---|---|
+| ![决策示例](assets/screenshots/decision-example.png) | ![年结示例](assets/screenshots/annual-example.png) |
+
 ## 安装
 
 ### 方式一：作为 Skill 安装（支持 Skills 的 AI 环境）

@@ -25,6 +25,18 @@ And in the AI era, your records carry a second layer of value: **they are the pe
 - **Memory index**: in file-writing mode, an `index.md` directory of the whole vault is maintained; weekly/annual reviews read the index first, then full entries — fast at any scale.
 - **Four-layer review loop**: Daily → Weekly (KISS + recurring-issue list) → Annual (Sahil Bloom's 7 questions) → Decision revisits (Decision Journal).
 
+## Preview
+
+Real filled-in examples (from actual usage, anonymized) — full files in `assets/examples/`:
+
+| Daily | Weekly |
+|---|---|
+| ![daily example](assets/screenshots/daily-example.png) | ![weekly example](assets/screenshots/weekly-example.png) |
+
+| Decision journal | Annual review |
+|---|---|
+| ![decision example](assets/screenshots/decision-example.png) | ![annual example](assets/screenshots/annual-example.png) |
+
 ## Installation
 
 ### Option 1: As a Skill (AI environments that support Skills)
